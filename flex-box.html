@@ -5,8 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 4px dotted palegoldenrod;
+            font-size: 4ex;
+            font-weight: 500;
+        }
+        .container{
+            border: 3px dashed rebeccapurple;
+            display: flex;
+            justify-content: space-evenly;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-5</div>
+    </div>
 </body>
 </html>
