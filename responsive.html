@@ -1,110 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Website</title>
     <style>
-        .container{
+        .container {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
         }
-        .food{
+
+        .food {
             border: 2px solid gray;
             border-radius: 10px;
             padding: 20px;
             margin-bottom: 25px;
         }
+
+        @media screen and (max-width: 576px) {
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        @media screen and (min-width: 577px) and (max-width: 992px) {
+            .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="food">
-            <img src="images/healty-fruits.jpg" alt="" height="200px" width="300px">
+            <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
             <h4>Price: 100</h4>
             <h2>Item-1</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit aliquam repellendus temporibus nobis quam dignissimos commodi accusantium laudantium facere.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tenetur consectetur ab tempore
+                aliquid, mollitia reiciendis voluptate totam a fugit!</p>
             <button>Order Now</button>
         </div>
         <div class="food">
-            <img src="images/healty-fruits.jpg" alt="" height="200px" width="300px">
+            <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
             <h4>Price: 200</h4>
             <h2>Item-2</h2>
-            <p>Unde eligendi illum quibusdam voluptate, assumenda, sit eius soluta atque odio delectus expedita. Maxime doloribus, odit reprehenderit blanditiis aut ipsam.</p>
+            <p>Ratione tenetur quaerat, aperiam eveniet cum architecto tempore iusto ullam soluta dignissimos amet
+                distinctio nihil sit nesciunt, fugit vitae ad!</p>
             <button>Order Now</button>
         </div>
         <div class="food">
-            <img src="images/healty-fruits.jpg" alt="" height="200px" width="300px">
+            <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
             <h4>Price: 300</h4>
             <h2>Item-3</h2>
-            <p>Eum, quam ducimus debitis tenetur voluptatum iusto officia iure beatae quia enim soluta vitae quasi culpa, ut laudantium assumenda nam!</p>
+            <p>Assumenda earum laboriosam, repellat cupiditate rem, eveniet, nihil adipisci magnam ab similique vitae
+                doloribus fuga repudiandae iste necessitatibus voluptatem minus.</p>
             <button>Order Now</button>
         </div>
         <div class="food">
-            <img src="images/healty-fruits.jpg" alt="" height="200px" width="300px">
+            <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
             <h4>Price: 400</h4>
             <h2>Item-4</h2>
-            <p>Cumque inventore delectus molestiae architecto a unde eveniet facilis repellat minima eligendi ab amet ea natus quis animi, beatae est!</p>
+            <p>Tenetur quas harum suscipit nihil beatae esse consequuntur, quo quisquam quos cumque maxime iure enim
+                voluptatibus, repellendus placeat. Quis, minima?</p>
             <button>Order Now</button>
         </div>
         <div class="food">
-            <img src="images/healty-fruits.jpg" alt="" height="200px" width="300px">
+            <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
             <h4>Price: 500</h4>
             <h2>Item-5</h2>
-            <p>Alias sit nesciunt doloremque amet reiciendis dolorem ipsum voluptatum tenetur voluptas, atque incidunt explicabo iusto, sint dolor fugiat. Eum, tenetur.</p>
+            <p>Consequatur fuga nostrum tempore nesciunt esse! Minima doloremque voluptatum id nihil molestiae fuga,
+                quia dolorem quo iure at quibusdam tempore.</p>
             <button>Order Now</button>
         </div>
         <div class="food">
-            <img src="images/healty-fruits.jpg" alt="" height="200px" width="300px">
+            <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
             <h4>Price: 600</h4>
             <h2>Item-6</h2>
-            <p>Mollitia sunt quod architecto illo impedit molestias porro veritatis? Aspernatur itaque quod ratione corrupti fuga nihil facilis ipsa distinctio magnam?</p>
+            <p>Quam hic veritatis placeat sequi, omnis maiores illum a quasi similique animi sint corrupti perferendis
+                recusandae, laudantium natus, unde itaque!</p>
             <button>Order Now</button>
         </div>
         <div class="food">
-            <img src="images/healty-fruits.jpg" alt="" height="200px" width="300px">
+            <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
             <h4>Price: 700</h4>
             <h2>Item-7</h2>
-            <p>Amet sit tempore doloremque ex possimus. Accusantium ut repellat, aliquid repudiandae temporibus a nulla consequuntur recusandae animi corrupti neque nesciunt!</p>
+            <p>Maiores, non magnam quisquam quia quis laboriosam fugit quam quaerat fugiat quos? Corrupti facere
+                voluptatum ullam veniam repellat. Nihil, facere!</p>
             <button>Order Now</button>
         </div>
         <div class="food">
-            <img src="images/healty-fruits.jpg" alt="" height="200px" width="300px">
+            <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
             <h4>Price: 800</h4>
             <h2>Item-8</h2>
-            <p>Nesciunt, quidem eligendi minima laudantium eos quod esse tenetur quaerat quibusdam nobis unde! Quibusdam quo illum magni neque quas in.</p>
+            <p>Sit quod culpa et magnam perspiciatis, eligendi vitae suscipit, quaerat deserunt beatae corrupti nam
+                tempora eius! Provident exercitationem corporis minima!</p>
             <button>Order Now</button>
         </div>
         <div class="food">
-            <img src="images/healty-fruits.jpg" alt="" height="200px" width="300px">
+            <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
             <h4>Price: 900</h4>
             <h2>Item-9</h2>
-            <p>Ullam ducimus voluptatum aliquam culpa et facere accusantium dolorem sequi, quia labore assumenda atque perferendis porro laudantium, exercitationem voluptatibus. Esse?</p>
+            <p>Saepe fugiat quis, aperiam voluptates laborum libero. Illum velit voluptatem, ad, aperiam a, mollitia
+                amet modi nisi aut perspiciatis aliquam!</p>
             <button>Order Now</button>
         </div>
         <div class="food">
-            <img src="images/healty-fruits.jpg" alt="" height="200px" width="300px">
+            <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
             <h4>Price: 1000</h4>
             <h2>Item-10</h2>
-            <p>Ullam vero iure tempora veniam dignissimos possimus dolorum, mollitia quam inventore, consectetur iusto, nisi deleniti culpa error. Est, fuga dolor.</p>
+            <p>Totam voluptas nulla eius laboriosam a quidem architecto optio adipisci, modi beatae dignissimos aliquid
+                temporibus minima veniam quibusdam quas nobis.</p>
             <button>Order Now</button>
         </div>
         <div class="food">
-            <img src="images/healty-fruits.jpg" alt="" height="200px" width="300px">
+            <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
             <h4>Price: 1100</h4>
             <h2>Item-11</h2>
-            <p>Dolor, laudantium. Cumque molestiae impedit molestias nulla quos! Modi obcaecati minus autem alias similique sit rem quis corporis est sapiente.</p>
+            <p>Officiis eius excepturi, provident quas qui magni soluta nam cumque cum maiores sit praesentium
+                laudantium animi quisquam nemo? Animi, fugiat?</p>
             <button>Order Now</button>
         </div>
         <div class="food">
-            <img src="images/healty-fruits.jpg" alt="" height="200px" width="300px">
+            <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
             <h4>Price: 1200</h4>
             <h2>Item-12</h2>
-            <p>Adipisci aliquid sit enim earum ipsa necessitatibus excepturi quod et, at quia voluptatem aspernatur est iure quam libero laboriosam minima!</p>
+            <p>Eos expedita nulla autem voluptatum iste provident porro hic, deserunt aliquid architecto? Rerum itaque
+                laudantium nostrum autem minima at dolores.</p>
             <button>Order Now</button>
         </div>
     </div>
 </body>
+
 </html>
