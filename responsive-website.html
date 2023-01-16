@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--1. viewport meta tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <style>
+        body {
+
+            margin: 0 auto;
+            border: 5px dotted red;
+            max-width: 1200px;
+        }
+
+        h1 {
+            font-size: 5vw;
+        }
+
+        .fruit img {
+            width: 100%;
+        }
+
+        .container-two {
+            display: flex;
+        }
+
+        .container-two .split {
+            width: 50%;
+        }
+
+        .container-two img {
+            width: 100%;
+        }
+
+        @media screen and (max-width: 576px) {
+            .container-two {
+                flex-direction: column-reverse;
+            }
+
+            .container-two .split {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<!--4. body max-width and margin auto-->
+
+<body>
+    <!--2. CSS relative unit-->
+    <section>
+        <h1>
+            This is responsive heading
+        </h1>
+    </section>
+    <!--3. Responsive image (fluid image)-->
+    <section class="fruit">
+        <img src="images/healty-fruits.jpg" alt="">
+    </section>
+    <!--5. responsive split screen using flex-->
+    <section>
+        <h2>Two part</h2>
+        <div class="container-two">
+            <div class="split">
+                <img src="images/sea.jpg" alt="">
+            </div>
+            <div class="split">
+                <img src="images/healty-fruits.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+    <!--
+        responsive things
+        1. viewport meta tag
+        2. CSS relative unit
+        3. Responsive image (fluid image)
+        4. body max-width and margin auto
+        5. responsive split screen using flex
+    -->
+</body>
+
+</html>
