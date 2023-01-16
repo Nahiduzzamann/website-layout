@@ -11,7 +11,6 @@
         body {
 
             margin: 0 auto;
-            border: 5px dotted red;
             max-width: 1200px;
         }
 
@@ -25,6 +24,7 @@
 
         .container-two {
             display: flex;
+            gap: 10px;
         }
 
         .container-two .split {
@@ -33,6 +33,17 @@
 
         .container-two img {
             width: 100%;
+            height: 300px;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+        }
+        .food{
+            border: 2px solid lightcoral;
+            padding: 5px;
+            border-radius: 10px;
         }
 
         @media screen and (max-width: 576px) {
@@ -42,6 +53,14 @@
 
             .container-two .split {
                 width: 100%;
+            }
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+        @media screen and (min-width: 577px) and (max-width: 900px) {
+            .container{
+                grid-template-columns: repeat(2, 1fr);
             }
         }
     </style>
@@ -72,13 +91,123 @@
 
         </div>
     </section>
+    <!--6. grid responsive (multi column)-->
+    <section>
+        <h2>
+            Multi column
+        </h2>
+        <div class="container">
+            <div class="food">
+                <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
+                <h4>Price: 100</h4>
+                <h2>Item-1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tenetur consectetur ab tempore
+                    aliquid, mollitia reiciendis voluptate totam a fugit!</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
+                <h4>Price: 200</h4>
+                <h2>Item-2</h2>
+                <p>Ratione tenetur quaerat, aperiam eveniet cum architecto tempore iusto ullam soluta dignissimos amet
+                    distinctio nihil sit nesciunt, fugit vitae ad!</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
+                <h4>Price: 300</h4>
+                <h2>Item-3</h2>
+                <p>Assumenda earum laboriosam, repellat cupiditate rem, eveniet, nihil adipisci magnam ab similique
+                    vitae
+                    doloribus fuga repudiandae iste necessitatibus voluptatem minus.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
+                <h4>Price: 400</h4>
+                <h2>Item-4</h2>
+                <p>Tenetur quas harum suscipit nihil beatae esse consequuntur, quo quisquam quos cumque maxime iure enim
+                    voluptatibus, repellendus placeat. Quis, minima?</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
+                <h4>Price: 500</h4>
+                <h2>Item-5</h2>
+                <p>Consequatur fuga nostrum tempore nesciunt esse! Minima doloremque voluptatum id nihil molestiae fuga,
+                    quia dolorem quo iure at quibusdam tempore.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
+                <h4>Price: 600</h4>
+                <h2>Item-6</h2>
+                <p>Quam hic veritatis placeat sequi, omnis maiores illum a quasi similique animi sint corrupti
+                    perferendis
+                    recusandae, laudantium natus, unde itaque!</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
+                <h4>Price: 700</h4>
+                <h2>Item-7</h2>
+                <p>Maiores, non magnam quisquam quia quis laboriosam fugit quam quaerat fugiat quos? Corrupti facere
+                    voluptatum ullam veniam repellat. Nihil, facere!</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
+                <h4>Price: 800</h4>
+                <h2>Item-8</h2>
+                <p>Sit quod culpa et magnam perspiciatis, eligendi vitae suscipit, quaerat deserunt beatae corrupti nam
+                    tempora eius! Provident exercitationem corporis minima!</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
+                <h4>Price: 900</h4>
+                <h2>Item-9</h2>
+                <p>Saepe fugiat quis, aperiam voluptates laborum libero. Illum velit voluptatem, ad, aperiam a, mollitia
+                    amet modi nisi aut perspiciatis aliquam!</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
+                <h4>Price: 1000</h4>
+                <h2>Item-10</h2>
+                <p>Totam voluptas nulla eius laboriosam a quidem architecto optio adipisci, modi beatae dignissimos
+                    aliquid
+                    temporibus minima veniam quibusdam quas nobis.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
+                <h4>Price: 1100</h4>
+                <h2>Item-11</h2>
+                <p>Officiis eius excepturi, provident quas qui magni soluta nam cumque cum maiores sit praesentium
+                    laudantium animi quisquam nemo? Animi, fugiat?</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="images/healty-fruits.jpg" alt="" height="200px" width="80%">
+                <h4>Price: 1200</h4>
+                <h2>Item-12</h2>
+                <p>Eos expedita nulla autem voluptatum iste provident porro hic, deserunt aliquid architecto? Rerum
+                    itaque
+                    laudantium nostrum autem minima at dolores.</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+    </section>
     <!--
         responsive things
         1. viewport meta tag
         2. CSS relative unit
         3. Responsive image (fluid image)
         4. body max-width and margin auto
-        5. responsive split screen using flex
+        5. responsive split screen using flex (2 column section)
+        6. grid responsive (multi column)
+        7. Responsive menu (bootstrap responsive)
     -->
 </body>
 
